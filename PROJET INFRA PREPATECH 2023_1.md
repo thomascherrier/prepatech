@@ -6,7 +6,7 @@
 ![LOGO Générique](https://store-images.s-microsoft.com/image/apps.27845.30be3330-280f-4e8e-ac1d-35f4f8176e71.bee1f510-c788-4634-97f7-1edb3738e3f1.ce090a7e-7c5d-45fa-91b2-c964e56e10d9)
 
 * Créer un groupe de 4 personnes (shuffle via ploufplouf, affinités).
-* Créer un pool de ressources collaboratives Online type GoogleWorkspace,OneDrive/Teams, Notion.
+* Créer un pool de ressources collaboratives Online type GoogleWorkspace,OneDrive/Teams, Notion
 * Choisir une identité visuelle (un nom,logotype,typo,2 couleurs,un motto).
 * Créer un descriptif de la société sur une feuille A4.
 * Créer un organigramme de la société, vous êtes le service IT dans la DSI.
@@ -36,7 +36,6 @@
 
 * Choisir et configurer un switch manageable dlink, le configurer et l'adresser correctement
 * Choisir et configurer une borne WIFI (la mettre temporairement) en mode serveur DHCP
-
 
 ## Infra Système n°1 (physique)
 
