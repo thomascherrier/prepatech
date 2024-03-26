@@ -112,14 +112,27 @@ Créer un schéma réseau de votre infra à ce moment précis à l'aide de [http
 **Il faut bien évidemment intégrer ces 3 serveurs à l'AD**
 
 ### Linux
+
+*wwww*
+
 * Installer un Linux Debian 11 (pas 12) sans GUI sur le proxmox qui va héberger le futur site web front-end de votre entreprise sur www.votredomaine.lan
-* Installer un LAMPS sur ce serveur et créer un VHost qui point vers /home/siteweb/www
+* Installer les binutils (zip,curl,linx,dnsutils,net-tools,git,screen,nmap) et Webmin
+* Installer un Apache sur ce serveur et créer un VHost qui point vers /home/siteweb/www
 * Créer une règle HSTS sur ce serveur pour la redirection http-->https
 * Créer une règle NAT dans IPFire pour le rendre accessible de l'exterieur
 * Créer un deuxième Vhost pour le nom de domaine online avec let's encrypt
+* Installer MariaDB et le sécuriser, créer un utilisateur qui aura tout les droits sur la future DB de votre CMS et aucun ailleurs
+* Installer la version la plus récente de PHP
+* Installer PhpMyAdmin
+* Installer Wordpress et faire une page d'accueil pour votre site
 
+*glpi*
 
 * Installer sur un Linux Debian sans GUI le GLPI et le faire pointer sur support.votredomaine.lan (avec certificat local auto-signe , HSTS et HTTPS)
+* Votre GLPI doit pouvoir se synchroniser avec le DC1 pour remonter les utilisateurs
+* Votre GLPI doit pouvoir faire une remontée d'inventaire des PC clients en VMs
+* Votre GLPI doit comporter une FAQ
+* Votre GLPI doit avoir un  Workflow complet d'un ticket pour un usager de l'AD
 
 **Il faut également intégrer ces 2 serveurs à l'AD à l'aide du binaire REALM**
 
