@@ -16,7 +16,7 @@
 
 ## Infra Réseau WAN
 
-![WAN ](https://blog.udemy.com/wp-content/uploads/2014/06/shutterstock_91234700-620x465.jpg)
+![WAN ](https://www.cloudflare.com/resources/images/slt3lc6tev37/6ARE3uWw7nvYn4VhyNh1Z6/d92a3e1bfa0878adb6c93ac91b12b98f/what_is_WAN_wide_area_network.png)
 
 * Choisir une prise RJ45 dans la salle
 * Se coordonner avec Roger (alternant Réseau) pour s'interconnecter à la baie
