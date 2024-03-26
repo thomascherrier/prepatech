@@ -113,7 +113,7 @@ Créer un schéma réseau de votre infra à ce moment précis à l'aide de [http
 
 ### Linux
 
-*wwww*
+*www*
 
 * Installer un Linux Debian 11 (pas 12) sans GUI sur le proxmox qui va héberger le futur site web front-end de votre entreprise sur www.votredomaine.lan
 * Installer les binutils (zip,curl,linx,dnsutils,net-tools,git,screen,nmap) et Webmin
