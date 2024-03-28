@@ -141,7 +141,16 @@ Créer un schéma réseau de votre infra à ce moment précis à l'aide de [http
 
 ## Infra Système n°3 (update)
 
-*TBA*
+![logo ms](https://techcommunity.microsoft.com/t5/image/serverpage/image-id/410966iD6D6E0A3ACDBBB50/image-size/medium?v=v2&px=400)
+
+
+* Passer tous les serveurs Windows de 2012R2 à 2022
+* Passer tous les clients de Windows 7/8.1 à 10 par migration
+* Vérifier la bonne propagation des GPOs
+* Installer sur une Vm cliente une version du pack Office
+* Installer sur le DC1 une GPO (avec les admx) pour pouvoir imposer par défaut une police dans les documents word
+* Installer un DC2 sur un autre windows server pour faire  une réplication (AD,DNS,GPO)
+
 
 ## Sécurité
 
