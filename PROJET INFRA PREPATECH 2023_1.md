@@ -116,7 +116,8 @@ Créer un schéma réseau de votre infra à ce moment précis à l'aide de [http
 *www*
 
 * Installer un Linux Debian 11 (pas 12) sans GUI sur le proxmox qui va héberger le futur site web front-end de votre entreprise sur www.votredomaine.lan
-* Installer les binutils (zip,curl,lynx,dnsutils,net-tools,git,screen,nmap) et Webmin
+* Installer les binutils (zip,curl,lynx,dnsutils,net-tools,git,screen,nmap)
+* Installer Webmin et utiliser le même certificat auto-signé local que celui que vous aller créer ci-dessous
 * Installer un Apache sur ce serveur et créer un VHost qui point vers /home/siteweb/www
 * Créer une règle HSTS sur ce serveur pour la redirection http-->https
 * Créer une règle NAT dans IPFire pour le rendre accessible de l'exterieur
@@ -129,6 +130,7 @@ Créer un schéma réseau de votre infra à ce moment précis à l'aide de [http
 *glpi*
 
 * Installer sur un Linux Debian sans GUI le GLPI et le faire pointer sur support.votredomaine.lan (avec certificat local auto-signé , HSTS et HTTPS)
+* Installer Webmin et utiliser le même certificat auto-signé local que celui que vous aller créer ci-dessous
 * Votre GLPI doit pouvoir se synchroniser avec le DC1 pour remonter les utilisateurs
 * Votre GLPI doit pouvoir faire une remontée d'inventaire des PC clients en VMs
 * Votre GLPI doit comporter une FAQ
