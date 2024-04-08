@@ -160,6 +160,3 @@ Créer un schéma réseau de votre infra à ce moment précis à l'aide de [http
 ## Livrables finaux et restitution en vue du jury
 
 *TBA*
-
-
-
