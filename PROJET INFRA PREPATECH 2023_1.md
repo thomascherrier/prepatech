@@ -154,7 +154,8 @@ Créer un schéma réseau de votre infra à ce moment précis à l'aide de [http
 
 ## Sécurité
 
-*TBA*
+* Créer un port mirroring sur le poste TOOLS et enregister un TCPDUMP sur un dossier partagé SAMBA des flux HTTP only
+* Mettre du HTTPS le plus possible
 
 ## Livrables finaux et restitution en vue du jury
 
