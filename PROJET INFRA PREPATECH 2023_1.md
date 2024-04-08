@@ -159,4 +159,7 @@ Créer un schéma réseau de votre infra à ce moment précis à l'aide de [http
 
 ## Livrables finaux et restitution en vue du jury
 
-*TBA*
+* Rédaction des livrables en groupe
+* Rédaction en MD si possible
+* Avec ScreenShots
+* A déposer en Individuel en ligne (git,hebergement web, MS365/Google Workspace)
