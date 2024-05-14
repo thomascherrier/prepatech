@@ -24,7 +24,7 @@
 * Tester la prise brassée dans la salle de cours directement sur une poste
 * Chercher/Monter un PC avec deux IF, 1 écran et un clavier
 * Installer IPFire via une clé usb bootable
-* configurer le WAN correctement sur la partie IPFire et vérifier qu'un ping www.perdu.com fonctionne correctement
+* configurer le WAN correctement sur la partie IPFire et vérifier qu'un ping www.perdu.com fonctionne bien
 * configurer le LAN rapidement (sans DHCP) sur une adresse IPv4 privée de classe B en /22
 
 *Validation par le référent/formateur avant la phase suivante*
